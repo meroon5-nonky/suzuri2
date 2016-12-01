@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.8;
+    padding: 6px 0px;
+    position: fixed;
+    z-index: 2;
+}
+header h1{
+    margin-right: 48px;
+    color:orangered;
+}s
+nav{
+    overflow: hidden;
+    width: 70%;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+    width: 25%;
+    text-align: center;
+}
+nav a{
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 14px 16px 0px;
+    width: 100%;
+}
+nav a:hover{
+    border-bottom: 3px solid white;
+}
