@@ -7,7 +7,7 @@ header{
     width: 100%;
     overflow: hidden;
     background-color: black;
-    opacity: 0.8;
+    opacity: ;
     padding: 6px 0px;
     position: fixed;
     z-index: 2;
@@ -19,6 +19,7 @@ header h1{
 nav{
     overflow: hidden;
     width: 70%;
+    margin: 0 auto;
 }
 
 nav li{
@@ -38,4 +39,34 @@ nav a{
 }
 nav a:hover{
     border-bottom: 3px solid white;
+}
+
+.item {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    background-color:cornflowerblue;
+    float: left;
+}
+
+.janl{
+    width: 50%;
+    overflow: hidden;
+     height: 100vh;
+    background-color:blueviolet;
+    float: left;
+    }
+
+.title > h2 {
+    text-align: center;
+    padding-top: 170px;
+    color:white;
+    font-size: 80px;
+}
+.icon {
+     text-align: center;
+}
+
+.img{
+    width: 300px;
 }
